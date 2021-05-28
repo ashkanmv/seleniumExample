@@ -10,7 +10,7 @@ async function example() {
    .sendKeys("ashkanmv@gmail.com");
   await driver
    .findElement(By.xpath("//input[@type='password']"))
-   .sendKeys("a123456");
+   .sendKeys("a12345");
   await driver.findElement(By.xpath("//input[@type='submit']")).click();
  } catch (error) {
   console.log(error);
